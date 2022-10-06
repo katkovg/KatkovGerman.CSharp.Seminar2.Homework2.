@@ -25,7 +25,7 @@ else
 
 // Задача 2. Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 /*
-int determineThirdNumber(int num)
+int determineThirdFigure(int num)
 {
     while (num > 999)
     {
@@ -38,7 +38,7 @@ Console.WriteLine("Input a number:");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99) 
 {
-    int result = determineThirdNumber(number);
+    int result = determineThirdFigure(number);
     Console.WriteLine("The third figure of this number is:");
     Console.WriteLine(result);
 }
